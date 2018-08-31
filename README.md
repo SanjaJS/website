@@ -1,6 +1,6 @@
-# ParisJS
+# SanjaJS
 
-This repository contains the code for the [parisjs.org](https://parisjs.org/) website.
+This repository contains the code for the meetup website, and is fork of [parisjs.org](https://parisjs.org/) website.
 
 ## Getting started
 
