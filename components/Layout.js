@@ -40,7 +40,7 @@ const Layout = ({ children }) => {
             </nav>
 
             <div className="languageSwitcher">
-              <Link to={`/`}>FR</Link>
+              <Link to={`/`}>PT</Link>
               <Link to={`/en`}>EN</Link>
             </div>
           </div>

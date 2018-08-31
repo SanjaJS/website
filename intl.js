@@ -2,13 +2,13 @@ import React from 'react'
 import { Link } from 'react-router'
 import { addLocaleData, FormattedMessage } from 'react-intl'
 import en from 'react-intl/locale-data/en'
-import fr from 'react-intl/locale-data/fr'
+import pt from 'react-intl/locale-data/pt'
 import messages from './lang'
 
-addLocaleData([...en, ...fr])
+addLocaleData([...en, ...pt])
 
-export const defaultLocale = 'fr'
-export const locales = ['fr', 'en']
+export const defaultLocale = 'pt'
+export const locales = ['pt', 'en']
 
 export function getLocale(url) {
   const firstURIlevel = url.replace(/^\//, '').split('/')[0]
