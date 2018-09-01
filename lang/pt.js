@@ -15,7 +15,7 @@ export default {
   NEXTMEETUP_RVSP: 'Inscreva-se no Meetup.com',
   PAGE_FAQ: '/faq',
   PAGE_HOME: '/',
-  PAGE_SPONSORS: '/en/apoiadores',
+  PAGE_SPONSORS: '/apoiadores',
   PAGE_SUBMIT_TALK: '/proposta/talk',
   PREVIEW_DETAIL: 'Detalhe →',
   SPONSOR_DESCRIPTION:

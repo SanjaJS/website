@@ -33,19 +33,19 @@ const routes = () => (
     <Route path="/faq" component={FAQContainer} />
     <Route path="/en/faq" component={FAQContainer} />
 
-    <Route path="/after/:after" component={HomeContainer} />
+    <Route path="/depois-de/:after" component={HomeContainer} />
     <Route path="/en/after/:after" component={HomeContainer} />
 
     <Route path="/meetup/*" component={MeetupContainer} />
     <Route path="/en/meetup/*" component={MeetupContainer} />
 
-    <Route path="/partenaires" component={SponsorsContainer} />
+    <Route path="/apoiadores" component={SponsorsContainer} />
     <Route path="/en/sponsors" component={SponsorsContainer} />
 
     <Route path="/proposta/talk" component={TalkSubmissionContainer} />
     <Route path="/en/submission/talk" component={TalkSubmissionContainer} />
 
-    <Route path="/search" component={SearchContainer} />
+    <Route path="/busca" component={SearchContainer} />
     <Route path="/en/search" component={SearchContainer} />
 
     <Route path="*" component={PageError} />
