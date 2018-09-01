@@ -1,0 +1,98 @@
+.header__logo a {
+  font-family: 'Poppins', sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+  margin-right: 16px;
+  border-radius: 3px;
+  transform: scale3d(1, 1, 1);
+}
+.header__logo a::before,
+.header__logo a::after {
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  background: #333;
+  color: #fff;
+  clip: rect(0, 900px, 0, 0);
+}
+
+.header__logo a::before {
+  left: 7px;
+  text-shadow: 1px 0 green;
+  animation: glitch-effect 3s infinite linear alternate-reverse;
+}
+
+.header__logo a::after {
+  left: 3px;
+  text-shadow: -1px 0 red;
+  animation: glitch-effect 2s infinite linear alternate-reverse;
+}
+
+@keyframes glitch-effect {
+  0% {
+    clip: rect(55px, 9999px, 47px, 0);
+  }
+  5% {
+    clip: rect(96px, 9999px, 54px, 0);
+  }
+  10% {
+    clip: rect(100px, 9999px, 8px, 0);
+  }
+  15% {
+    clip: rect(59px, 9999px, 28px, 0);
+  }
+  20% {
+    clip: rect(5px, 9999px, 98px, 0);
+  }
+  25% {
+    clip: rect(39px, 9999px, 61px, 0);
+  }
+  30% {
+    clip: rect(52px, 9999px, 57px, 0);
+  }
+  35% {
+    clip: rect(75px, 9999px, 87px, 0);
+  }
+  40% {
+    clip: rect(67px, 9999px, 50px, 0);
+  }
+  45% {
+    clip: rect(46px, 9999px, 1px, 0);
+  }
+  50% {
+    clip: rect(98px, 9999px, 66px, 0);
+  }
+  55% {
+    clip: rect(39px, 9999px, 3px, 0);
+  }
+  60% {
+    clip: rect(100px, 9999px, 67px, 0);
+  }
+  65% {
+    clip: rect(82px, 9999px, 60px, 0);
+  }
+  70% {
+    clip: rect(82px, 9999px, 91px, 0);
+  }
+  75% {
+    clip: rect(40px, 9999px, 30px, 0);
+  }
+  80% {
+    clip: rect(31px, 9999px, 79px, 0);
+  }
+  85% {
+    clip: rect(82px, 9999px, 83px, 0);
+  }
+  90% {
+    clip: rect(86px, 9999px, 8px, 0);
+  }
+  95% {
+    clip: rect(66px, 9999px, 97px, 0);
+  }
+  100% {
+    clip: rect(54px, 9999px, 88px, 0);
+  }
+}

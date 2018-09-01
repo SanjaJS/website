@@ -22,7 +22,9 @@ const Layout = ({ children }) => {
         <header className="header">
           <div className="container">
             <div className="header__logo">
-              <Link to="/" data-text="Sanja.JS">Sanja.JS</Link>
+              <Link to="/" data-text="Sanja.JS">
+                Sanja.JS
+              </Link>
             </div>
             <nav className="header__nav">
               <IntlLink to="PAGE_HOME" title="HOME" activeClassName="active" />
