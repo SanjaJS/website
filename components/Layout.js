@@ -29,11 +29,11 @@ const Layout = ({ children }) => {
             <nav className="header__nav">
               <IntlLink to="PAGE_HOME" title="HOME" activeClassName="active" />
               <IntlLink to="PAGE_FAQ" title="FAQ" activeClassName="active" />
-              <IntlLink
+              {/* <IntlLink
                 to="PAGE_SUBMIT_TALK"
                 title="SUBMIT_TALK"
                 activeClassName="active"
-              />
+              /> */}
               <IntlLink
                 to="PAGE_SPONSORS"
                 title="SPONSORS"
