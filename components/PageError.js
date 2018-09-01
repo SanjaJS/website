@@ -3,7 +3,7 @@ import Head from "react-helmet"
 
 const PageError = ({ error }) => {
   const status = error && error.status || 404
-  const message = error && status !== 404 ? error.statusText : "Page not found"
+  const message = error && status !== 404 ? error.statusText : "404"
 
   return (
     <div>

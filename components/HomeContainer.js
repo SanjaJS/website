@@ -18,7 +18,7 @@ import NextMeetup from './NextMeetup'
 const Home = ({ meetups, router }) => (
   <Layout>
     <Head>
-      <title>Paris.JS - Event-driven community about JavaScript</title>
+      <title>Sanja.JS - JS em São José dos Campos</title>
       <meta name="description" content="" />
       <link
         rel="stylesheet"

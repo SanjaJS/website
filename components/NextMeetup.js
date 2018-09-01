@@ -98,7 +98,7 @@ class NextMeetup extends React.Component {
             >
               <FaMeetup
                 size={30}
-                color="#FFF"
+                color="#292929"
                 className="NextMeetup__RegisterButtonIcon"
               />
               <FormattedMessage
