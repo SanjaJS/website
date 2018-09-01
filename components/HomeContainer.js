@@ -33,7 +33,7 @@ const Home = ({ meetups, router }) => (
         <NextMeetup />
       </div>
     </div>
-    <div className="container meetups">
+    {/* <div className="container meetups">
       <InstantSearch
         appId="KQPF9BC268"
         apiKey="5eabe9bbceee31443c075723136fa826"
@@ -66,7 +66,7 @@ const Home = ({ meetups, router }) => (
             )}
         </p>
       </InstantSearch>
-    </div>
+    </div> */}
   </Layout>
 )
 
