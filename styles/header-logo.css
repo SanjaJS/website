@@ -1,5 +1,5 @@
 .header__logo a {
-  font-family: 'Poppins', sans-serif;
+  text-transform: lowercase;
   font-size: 36px;
   font-weight: bold;
   margin-right: 16px;

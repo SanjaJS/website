@@ -10,7 +10,7 @@
 }
 
 .header a {
-  font-family: 'Poppins', sans-serif;
+  text-transform: lowercase;
   font-size: 18px;
   font-weight: bold;
   color: #ffffff;
