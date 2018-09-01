@@ -42,7 +42,7 @@ const routes = () => (
     <Route path="/partenaires" component={SponsorsContainer} />
     <Route path="/en/sponsors" component={SponsorsContainer} />
 
-    <Route path="/propositions/sujet" component={TalkSubmissionContainer} />
+    <Route path="/proposta/talk" component={TalkSubmissionContainer} />
     <Route path="/en/submission/talk" component={TalkSubmissionContainer} />
 
     <Route path="/search" component={SearchContainer} />

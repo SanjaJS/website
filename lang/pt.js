@@ -16,7 +16,7 @@ export default {
   PAGE_FAQ: '/faq',
   PAGE_HOME: '/',
   PAGE_SPONSORS: '/en/apoiadores',
-  PAGE_SUBMIT_TALK: '/propostas/talk',
+  PAGE_SUBMIT_TALK: '/proposta/talk',
   PREVIEW_DETAIL: 'Detalhe →',
   SPONSOR_DESCRIPTION:
     'Lista nossos atuais apoiadores. Apoie o Sanja.js entrando em contato conosco.',
